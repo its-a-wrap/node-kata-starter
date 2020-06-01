@@ -1,11 +1,6 @@
 
-const mainFunction = () => {
-  var returnValue = helperFunction();
-  return returnValue;
-}
+const placeHolder = () => {
+  return 0;
+};
 
-const helperFunction = () => {
-  return 10;
-}
-
-module.exports = mainFunction;
+module.exports = placeHolder;

@@ -1,10 +1,7 @@
 const { expect } = require('chai');
-const mainFunction = require('./index');
+const placeholder = require('./index');
 
-describe('Test', () => {
-  const output = mainFunction();
-
-  it('SHOULD equal ten', () => {
-    expect(output).to.be.eql(10);
-  })
-})
+describe('some test', () => {
+  it('SHOULD do something', () => {
+  });
+});
