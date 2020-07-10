@@ -1,3 +1,3 @@
 export const placeHolder = () => {
-  return 0;
-};
+    return 0;
+}
