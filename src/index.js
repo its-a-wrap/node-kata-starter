@@ -1,3 +1,3 @@
-export const placeHolder = () => {
-    return 0;
-}
+const placeHolder = () => 0;
+
+export default placeHolder;

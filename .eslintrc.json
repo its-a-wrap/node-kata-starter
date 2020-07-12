@@ -4,11 +4,15 @@
     "mocha": true,
     "es2020": true
   },
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "airbnb"
+  ],
   "parserOptions": {
     "ecmaVersion": 11,
     "sourceType": "module"
   },
   "rules": {
+    "import/extensions": "off"
   }
 }
