@@ -1,3 +1,9 @@
-const placeHolder = () => 0;
+export class Placeholder {
+  constructor() {
+    this.something = 0;
+  }
 
-export default placeHolder;
+  anotherFunction() {
+    return 1;
+  }
+}

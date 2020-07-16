@@ -1,10 +1,11 @@
 import chai from 'chai';
-import placeHolder from './index.js';
+import { Placeholder } from './index.js';
 
 const { expect } = chai;
 
 describe('some test', () => {
+  const placeholder = new Placeholder();
   it('SHOULD do something', () => {
-    expect(placeHolder()).to.be.eql(0);
+    expect(placeholder.anotherFunction()).to.be.eql(1);
   });
 });
