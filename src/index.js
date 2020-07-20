@@ -1,22 +1,9 @@
-export class CommentSanitiser {
+export class Placeholder {
   constructor() {
-    this.badWords = ['crap', 'idiot'];
+    this.something = 0;
   }
 
-  sanitise(inputString) {
-    let returnString = inputString;
-
-    this.badWords.forEach((word) => {
-      const badWordRegEx = new RegExp(word, 'ig');
-      returnString = returnString.replace(badWordRegEx, '*'.repeat(word.length));
-    });
-
-    const emailRegEx = new RegExp(/\S+@\S+\.\S+\w/, 'g');
-    returnString = returnString.replace(emailRegEx, '<email address>');
-
-    const phoneNumberRegex = new RegExp(/0+7\d{9}/, 'g');
-    returnString = returnString.replace(phoneNumberRegex, '<phone number>');
-
-    return returnString;
+  anotherFunction() {
+    return 1;
   }
 }
